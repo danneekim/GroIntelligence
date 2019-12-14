@@ -2,20 +2,33 @@ a{
     color: white;
 }
 
+a:hover{
+    opacity: 50%;
+}
+
 .navigation-wrapper{
     background-color: #333336 !important;
     opacity: 100%;
 }
 
 .navigation-header-container{
-   height: 10vh;
+   height: inherit;
    border: 1px solid black;
    margin-left: 5vw;
    margin-right: 5vw;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
 }
 
 .align-center-middle{
     display:flex; 
     align-items:center; 
     justify-content: center; 
+}
+
+.chip{
+    display: inline-flex; 
+    padding: 7px 12px; 
+    border: 1px solid white; 
+    border-radius: 19px; 
 }
