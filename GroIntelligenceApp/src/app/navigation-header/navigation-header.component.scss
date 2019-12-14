@@ -1,0 +1,21 @@
+a{
+    color: white;
+}
+
+.navigation-wrapper{
+    background-color: #333336 !important;
+    opacity: 100%;
+}
+
+.navigation-header-container{
+   height: 10vh;
+   border: 1px solid black;
+   margin-left: 5vw;
+   margin-right: 5vw;
+}
+
+.align-center-middle{
+    display:flex; 
+    align-items:center; 
+    justify-content: center; 
+}
