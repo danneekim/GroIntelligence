@@ -20,4 +20,8 @@ export class NavigationHeaderComponent implements OnInit {
     this.router.navigate(['/products'])
   }
 
+  navigateToIndustries(){
+    this.router.navigate(['/industries'])
+  }
+
 }

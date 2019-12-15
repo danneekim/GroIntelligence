@@ -7,13 +7,15 @@ import { NavigationHeaderComponent } from './navigation-header/navigation-header
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ProductLinkComponent } from './product-link/product-link.component';
+import { IndustryLinkComponent } from './industry-link/industry-link.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationHeaderComponent,
-    ProductLinkComponent
+    ProductLinkComponent,
+    IndustryLinkComponent
   ],
   imports: [
     BrowserModule,
