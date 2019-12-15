@@ -1,28 +1,111 @@
 .image-container{
     position: relative; 
-    text-align: center; 
-    height: 100%;
     overflow: hidden; 
-    min-width: 335px;
     margin: 0;
+    text-align: center;
 }
 
-.image-background{
+.image1-background{
     background-color: black; 
     background-image: url('/assets/images/industries/financial-services.jpg'); 
     background-size: cover; 
-    height:100%;
-    min-width: 335px;
+    background-position: center;
+    height: 185px;
+    width: 292px;
+    border-radius: 16px;
+    transition: all 0.5s ease;
+    overflow: hidden
+}
+
+.image1-button{
+    position: absolute;
+    background: rgba(104, 104, 104, 0.7); 
+    top: 50%;
+    left: 24%;
+    width: 57%;
+    border-radius: 16px;
+    color: white;
+}
+
+.image2-background{
+    background-color: black; 
+    background-image: url('/assets/images/industries/physical-traders.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 172px;
+    width: 291px;
+    border-radius: 16px;
+    margin-top: 3px;
     transition: all 0.5s ease;
 }
 
-.image-background:hover{
+.image2-button{
+    position: absolute;
+    background: rgba(104, 104, 104, 0.7);
+    top: 53%;
+    left: 24%;
+    width: 55%;
+    border-radius: 16px;
+    color: white;
+}
+
+.image3-background{
+    background-color: black; 
+    background-image: url('/assets/images/industries/sources-and-procurement.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 173px;
+    width: 292px;
+    border-radius: 16px;
+    margin-top: 3px;
+    transition: all 0.5s ease;
+}
+
+.image3-button{
+    position: absolute;
+    background: rgba(104, 104, 104, 0.7);
+    top: 51%;
+    left: 10%;
+    width: 81%;
+    padding: 2px;
+    border-radius: 16px;
+    color: white;
+}
+
+
+.image4-background{
+    background-color: black; 
+    background-image: url('/assets/images/industries/consulting.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 172px;
+    margin-top: 3px;
+    border-radius: 16px;
+    width: 293px;
+    transition: all 0.5s ease;
+}
+
+.image4-button{
+    position: absolute;
+    background: rgba(104, 104, 104, 0.7);
+    top: 51%;
+    left: 10%;
+    width: 81%;
+    padding: 2px;
+    border-radius: 16px;
+    color: white;
+}
+
+.image1-background:hover, 
+.image2-background:hover, 
+.image3-background:hover,
+.image4-background:hover{
     transform: scale(1.3);
    
 }
 
 .image-button{
-    position: absolute !important; 
+    position: absolute; 
     top:50%; 
     left: 50%;  
     transform: translate(-50%, -50%); 
