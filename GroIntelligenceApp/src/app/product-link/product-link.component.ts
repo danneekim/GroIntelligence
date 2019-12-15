@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
-import * as data from '../../assets/data/content.json';
 
 @Component({
   selector: 'app-product-link',
@@ -22,8 +21,11 @@ export class ProductLinkComponent implements OnInit {
       data => {
         this.groData = data as string [];
         console.log(this.groData);
+      },
+      (err: HttpErrorResponse) => {
+        console.log (err.message);
       }
-    )
+    );
   }
 
 }
