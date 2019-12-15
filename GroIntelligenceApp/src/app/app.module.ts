@@ -7,6 +7,7 @@ import { NavigationHeaderComponent } from './navigation-header/navigation-header
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ProductLinkComponent } from './product-link/product-link.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductLinkComponent } from './product-link/product-link.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
