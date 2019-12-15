@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NavigationHeaderComponent } from './navigation-header/navigation-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import { ProductLinkComponent } from './product-link/product-link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationHeaderComponent
+    NavigationHeaderComponent,
+    ProductLinkComponent
   ],
   imports: [
     BrowserModule,
