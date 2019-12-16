@@ -12,13 +12,7 @@ Gro Intelligence Web Developer Exercise created by Dannee Kim to demonstrate abi
 * [Typescript 3.5.3](https://www.typescriptlang.org/index.html#download-links)
 * [Webpack 4.39.2](https://www.npmjs.com/package/webpack/v/4.39.2)
 
-## Mock-ups:
-#### Products:
+### Provided Mockups:
 ![Products Mockup](/GroWebDeveloper%20Exercise/mockups/preview-products.png)
-
-#### Industries:
 ![Industries Mockup](/GroWebDeveloper%20Exercise/mockups/preview-industries.png)
-
-#### Sample Mockup Gif:
-![Gif](http://studiomusen.com/wp-content/uploads/2017/09/e4dc3164136353.5acbba79e1af4.gif)
 
