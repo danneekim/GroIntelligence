@@ -16,8 +16,6 @@ export class ProductLinkComponent implements OnInit {
 
   groData: Array<any>
   productsList: Array<any>;
-  productLabelsArray: Array<any>;
-  productDescriptionArray: Array<any>;
 
   ngOnInit() {
     this.httpService.get('../../assets/data/content.json').subscribe(
@@ -27,7 +25,6 @@ export class ProductLinkComponent implements OnInit {
           if (element.label === 'Products' && element.subnavList) {
             let tempArray = element.subnavList
             this.productsList = tempArray;
-            console.log(this.productsList);
           }
         })
       },

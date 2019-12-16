@@ -1,14 +1,17 @@
 <div style="background-color: #ffffff">
     <div class="grid-x grid-padding-x products-container">
-        <div class="cell small-3 product-border-line" >
-            <div class="grid-x center-text" >
+        <div class="cell small-3 product-border-line">
+            <div class="grid-x center-text">
                 <div class="cell small-12 top-space">
                     <img width="78px" height="111px" src="assets/images/products/gro-web-app.png">
                 </div>
-                <div class="cell small-12 top-space" style="font-size: 20px;">Gro web app</div>
-                <div class="cell small-12 top-space" style="font-size:16px; color: #AAAAAD;">
-                    Jump straight into analysis through intuitive
-                    visualizations that can be monitored on live dashboards</div>
+                <div *ngFor="let product of productsList">
+                    <div *ngIf="product.href === '/products/gro'" class="cell small-12 top-space"
+                        style="font-size: 20px;">{{product.label}}</div>
+                    <div *ngIf="product.href === '/products/gro'" class="cell small-12 top-space"
+                        style="font-size:16px; color: #AAAAAD;">
+                        {{product.description}}</div>
+                </div>
                 <div class="cell small-12 button-container">
                     <div class="learn-more-button">
                         <span style="font-weight: bold; font-size: 13px; color: #686868">&nbsp;Learn More&nbsp;></span>
@@ -16,14 +19,18 @@
                 </div>
             </div>
         </div>
-        <div class="cell small-3 product-border-line" >
+        <div class="cell small-3 product-border-line">
             <div class="grid-x center-text">
                 <div class="cell small-12 top-space">
                     <img width="78px" height="111px" src="assets/images/products/gro-analytics.png">
                 </div>
-                <div class="cell small-12" style="padding-top: 2vh; font-size: 20px;">Gro analytics</div>
-                <div class="cell small-12" style="padding-top: 2vh; font-size:16px; color: #AAAAAD;">
-                    Gain a competitive edge by using Gro's proprietary machine-learning algorithms and predictive models
+                <div *ngFor="let product of productsList">
+                    <div *ngIf="product.href === '/products/analytics'" class="cell small-12"
+                        style="padding-top: 2vh; font-size: 20px;">{{product.label}}</div>
+                    <div *ngIf="product.href === '/products/analytics'" class="cell small-12"
+                        style="padding-top: 2vh; font-size:16px; color: #AAAAAD;">
+                        {{product.description}}
+                    </div>
                 </div>
                 <!-- List of yield forecasts: -->
                 <div class="cell small-12"
@@ -47,19 +54,43 @@
                 </div>
             </div>
         </div>
-        <div class="cell small-3" style="border-right: 1px solid black;">
-            <div class="grid-x">
-                <div class="cell small-12"
-                    style="display: flex; align-items:center; justify-content: center;  padding-top: 2vh;">
+        <div class="cell small-3 product-border-line">
+            <div class="grid-x center-text">
+                <div class="cell small-12 top-space">
                     <img width="78px" height="111px" src="assets/images/products/gro-api.jpg">
+                    <div *ngFor="let product of productsList">
+                        <div *ngIf="product.href === '/products/gro-api'" class="cell small-12 top-space"
+                            style="font-size: 20px;">{{product.label}}</div>
+                        <div *ngIf="product.href === '/products/gro-api'" class="cell small-12 top-space"
+                            style="font-size:16px; color: #AAAAAD;">
+                            {{product.description}}</div>
+                    </div>
+                    <div class="cell small-12 button-container">
+                        <div class="learn-more-button">
+                            <span style="font-weight: bold; font-size: 13px; color: #686868">&nbsp;Learn
+                                More&nbsp;></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="cell small-3" style="border-right: 1px solid black;">
-            <div class="grid-x">
-                <div class="cell small-12"
-                    style="display: flex; align-items:center; justify-content: center;  padding-top: 2vh;">
+        <div class="cell small-3">
+            <div class="grid-x center-text">
+                <div class="cell small-12 top-space">
                     <img width="78px" height="111px" src="assets/images/products/gro-dictionary.png">
+                </div>
+                <div *ngFor="let product of productsList">
+                    <div *ngIf="product.href === '/products/gro-dictionary'" class="cell small-12 top-space"
+                        style="font-size: 20px;">{{product.label}}</div>
+                    <div *ngIf="product.href === '/products/gro-dictionary'" class="cell small-12 top-space"
+                        style="font-size:16px; color: #AAAAAD;">
+                        {{product.description}}</div>
+                </div>
+                <div class="cell small-12 button-container">
+                    <div class="learn-more-button">
+                        <span style="font-weight: bold; font-size: 13px; color: #686868">&nbsp;Learn
+                            More&nbsp;></span>
+                    </div>
                 </div>
             </div>
         </div>
