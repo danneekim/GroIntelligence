@@ -12,6 +12,14 @@
     display: flex; 
     align-items:center; 
     justify-content: center;
+    cursor: pointer;
+}
+
+.learn-more-text{
+    font-weight: bold; 
+    font-size: 13px; 
+    color: #686868;
+
 }
 
 .learn-more-button:hover{
@@ -36,5 +44,24 @@
 
 .top-space{
     padding-top: 2vh;
+}
+
+.yield-list-item{
+    padding-top: 2vh; 
+    padding-left: 0.5vw; 
+    font-size: 14px; 
+    text-align: left;
+    cursor: pointer;
+}
+
+.yield-forecast{
+    color:#A9A9A9;
+}
+
+.yield-arrow{
+    font-weight: bold; 
+    font-size: 16px; 
+    color: grey;
+
 }
 
