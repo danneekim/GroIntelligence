@@ -19,6 +19,6 @@ Gro Intelligence Web Developer Exercise created by Dannee Kim to demonstrate abi
 #### Industries:
 ![Industries Mockup](/GroWebDeveloper%20Exercise/mockups/preview-industries.png)
 
-#### Sample Mockup Gid:
-![](http://studiomusen.com/wp-content/uploads/2017/09/e4dc3164136353.5acbba79e1af4.gif)
+#### Sample Mockup Gif:
+![Gif](http://studiomusen.com/wp-content/uploads/2017/09/e4dc3164136353.5acbba79e1af4.gif)
 
