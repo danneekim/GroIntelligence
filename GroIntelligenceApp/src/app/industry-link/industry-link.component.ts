@@ -14,7 +14,6 @@ export class IndustryLinkComponent implements OnInit {
   ) { }
   groData: Array<any>;
   industryList: Array<any>;
-  industryObject: Object = {};
   industryLabel1: string = "";
   industryLabel2: string = "";
   industryLabel3: string = "";

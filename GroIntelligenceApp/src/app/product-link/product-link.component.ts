@@ -12,18 +12,27 @@ export class ProductLinkComponent implements OnInit {
 
   constructor(
     private httpService: HttpClient
-  ) {}
+  ) { }
 
-  groData: string [];
+  groData: Array<any>
+  productsList: Array<any>;
+  productLabelsArray: Array<any>;
+  productDescriptionArray: Array<any>;
 
   ngOnInit() {
     this.httpService.get('../../assets/data/content.json').subscribe(
       data => {
-        this.groData = data as string [];
-        console.log(this.groData);
+        this.groData = data as any[];
+        this.groData.forEach(element => {
+          if (element.label === 'Products' && element.subnavList) {
+            let tempArray = element.subnavList
+            this.productsList = tempArray;
+            console.log(this.productsList);
+          }
+        })
       },
       (err: HttpErrorResponse) => {
-        console.log (err.message);
+        console.log(err.message);
       }
     );
   }
