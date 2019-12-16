@@ -1,3 +1,10 @@
+.button-container{
+    padding-top: 3vh; 
+    display: flex; 
+    align-items:center; 
+    justify-content: center; 
+}
+
 .learn-more-button{
     width:99px; height: 29px; 
     border-radius: 14.5px; 
@@ -10,3 +17,24 @@
 .learn-more-button:hover{
     background-color: #E54437;
 }
+
+.products-container{
+    min-height: 35vh; 
+    margin-left: 5vw;
+    margin-right: 5vw; 
+    padding-top: 3vh;
+    padding-bottom: 2vh; 
+}
+
+.product-border-line{
+    border-right: 2px solid#A9A9A9;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.top-space{
+    padding-top: 2vh;
+}
+
