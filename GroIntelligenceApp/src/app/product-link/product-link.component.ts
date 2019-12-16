@@ -11,7 +11,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 export class ProductLinkComponent implements OnInit {
 
   constructor(
-    private httpService: HttpClient
+    public httpService: HttpClient
   ) { }
 
   groData: Array<any>

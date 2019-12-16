@@ -10,7 +10,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 export class IndustryLinkComponent implements OnInit {
 
   constructor(
-    private httpService: HttpClient
+    public httpService: HttpClient
   ) { }
   groData: Array<any>;
   industryList: Array<any>;
