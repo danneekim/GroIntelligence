@@ -6,4 +6,4 @@ Gro Intelligence Web Developer Exercise
 ![Products Mockup](/GroWebDeveloper%20Exercise/mockups/preview-products.png)
 
 #### Industries:
-![Industries Mockup] (/GroWebDeveloper%20Exercise/mockups/preview-products.png)
+![Industries Mockup](/GroWebDeveloper%20Exercise/mockups/preview-industries.png)
